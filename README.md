@@ -2,4 +2,6 @@
 
 # Containerized App Exercise
 
+Hello, World!
+
 Build a containerized app that uses machine learning. See [instructions](./instructions.md) for details.
