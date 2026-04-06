@@ -57,7 +57,7 @@ def main():
             "date": current_date,
         }
     ]
-    url = "https://script.google.com/macros/s/AKfycbzDomyYQ1zsHy_eDOjyK7D48xpMUti2MCna3H4mvjkzZ42dnJTKQHUrRfoRtVFLd5Ia/exec"
+    url = "https://script.google.com/macros/s/AKfycbwmOxM6cXKcNPBatM8zgJEoCSotUXRhN5XVgMXwf20ukMJcNMzDBoQXoNfIpUrL0QFpfg/exec"
     body = json.dumps(payload).encode("utf-8")
     req = Request(
         url, data=body, method="POST", headers={"Content-Type": "application/json"}
