@@ -1,15 +1,15 @@
-**Date & Time:** 2026-04-06 09:40:42 PM EDT
+**Last updated:** 2026-04-07 07:38:24 PM EDT
 
 [![Lint-free](https://github.com/swe-students-spring2026/4-containers-admins_team/actions/workflows/lint.yml/badge.svg)](https://github.com/swe-students-spring2026/4-containers-admins_team/actions/workflows/lint.yml)
 [![GitHub events logger](https://github.com/swe-students-spring2026/4-containers-admins_team/actions/workflows/event-logger.yml/badge.svg)](https://github.com/swe-students-spring2026/4-containers-admins_team/actions/workflows/event-logger.yml)
 
 # Containerized App Exercise
 
-This repository contains a multi-container project scaffold for a machine learning client, a web app, and a MongoDB database.
+This repository contains a multi-container project scaffold with a machine learning client, a web app, and a MongoDB database.
 
-At the moment, the repo includes project structure, CI workflows, and Python lint/format tooling. Application feature code can be added in the subsystem folders below.
+The repository currently includes project structure, CI workflows, and Python lint/format tooling. Application feature code can be added in the subsystem folders below.
 
-## Repository layout
+## Repository Layout
 
 - `machine-learning-client/` - Python machine learning subsystem
 - `web-app/` - Python Flask web app subsystem
@@ -40,7 +40,7 @@ cd ../web-app
 pipenv sync --dev
 ```
 
-## Run quality checks
+## Run Quality Checks
 
 Run linting and formatting checks in each subsystem:
 
@@ -69,7 +69,7 @@ docker stop mongodb
 docker start mongodb
 ```
 
-## Environment variables
+## Environment Variables
 
 No required `.env` variables are currently defined in this repository.
 
